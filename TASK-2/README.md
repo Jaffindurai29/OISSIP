@@ -1,5 +1,3 @@
-Here's a `README.md` file for your "Tribute to Johnny Depp" project:
-
 ```markdown
 # Tribute to Johnny Depp
 
