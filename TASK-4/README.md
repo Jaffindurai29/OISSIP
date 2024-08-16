@@ -1,4 +1,3 @@
-Here's a simplified version of the README file:
 
 ```markdown
 # Authentication System
