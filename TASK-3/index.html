@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List</h1>
+            <p>Boost your productivity with an organized task list</p>
+        </header>
+        <div class="todo-container">
+            <div class="input-section">
+                <input type="text" id="new-task" placeholder="What do you want to accomplish today?">
+                <button onclick="addTask()"><i class="fas fa-plus"></i> Add Task</button>
+            </div>
+            <div class="task-lists">
+                <div class="task-list" id="pending">
+                    <h2>Pending Tasks</h2>
+                    <ul id="pending-tasks"></ul>
+                </div>
+                <div class="task-list" id="completed">
+                    <h2>Completed Tasks</h2>
+                    <ul id="completed-tasks"></ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Designed with <i class="fas fa-heart"></i> by Jaffin Durai</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
